@@ -27,7 +27,7 @@ The project is split into two parts: a backend and a frontend.
 * **API improvements:** I’d include pagination, versioning (e.g. `/api/v1/...`), and Swagger/OpenAPI documentation.
 * **Frontend:**
 
-    * API url shouldn't be hardcoded (I remembered about it in 5 mins before me time was over, sorry :)
+    * API url shouldn't be hardcoded (I remembered about it in 5 mins before the time was over, sorry :)
     * I've also noticed a bug with "edit task form" that appears at the top of the list (noticed it in 2 mins before the timer)
     * Add ESLint and Prettier config
     * Add tests
