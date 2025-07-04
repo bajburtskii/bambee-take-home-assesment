@@ -7,13 +7,12 @@ The project is split into two parts: a backend and a frontend.
 * The **backend** is built with **Node.js**, **TypeScript**, and **Express**, using **SQLite** as the database to keep things simple and avoid external dependencies like Docker or DBs.
 * The **frontend** uses **React** with **TypeScript**.
 * Authentication is handled via **JWT**.
-
+* Node version is 22.14
 ---
 
 ## 2. Assumptions
 
 * Two user lo test with: 1. alice@example.com/password 2. bob@example.com/password
-password
 * I intentionally kept the frontend simple (even naive), with minimal styling.
 * If the team hits OpenAI API quotas, I added a fallback service that generates sample tasks locally. See: a line in the `GET /tasks/generated` endpoint.
 
@@ -28,6 +27,8 @@ password
 * **API improvements:** I’d include pagination, versioning (e.g. `/api/v1/...`), and Swagger/OpenAPI documentation.
 * **Frontend:**
 
+    * API url shouldn't be hardcoded (I remembered about it in 5 mins before me time was over, sorry :)
+    * I've also noticed a bug with "edit task form" that appears at the top of the list (noticed it in 2 mins before the timer)
     * Add ESLint and Prettier config
     * Add tests
     * Improve typing across components
