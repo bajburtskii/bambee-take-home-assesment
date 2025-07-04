@@ -12,7 +12,7 @@ The project is split into two parts: a backend and a frontend.
 
 ## 2. Assumptions
 
-* Two user lo test with: 1. alice@example.com/password 2. bob@example.com/password
+* Two users lo test with: 1. alice@example.com/password 2. bob@example.com/password
 * I intentionally kept the frontend simple (even naive), with minimal styling.
 * If the team hits OpenAI API quotas, I added a fallback service that generates sample tasks locally. See: a line in the `GET /tasks/generated` endpoint.
 
